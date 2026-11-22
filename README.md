@@ -1,143 +1,165 @@
-👋 Hi, I'm Akash Baloni
-🚀 Data Scientist | Machine Learning Engineer | AI Enthusiast
-
-I build end-to-end machine learning solutions — from data exploration and feature engineering to model development, deployment, and interactive web applications.
-
-I enjoy turning complex data into meaningful insights and building practical AI-powered products.
-
 <p align="center">
-<a href="https://github.com/Akashbaloni">
-<img src="https://komarev.com/ghpvc/?username=Akashbaloni&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-</a>
-<img src="https://img.shields.io/github/followers/Akashbaloni?label=Followers&style=flat&color=blue" alt="Followers" />
-<img src="https://img.shields.io/github/stars/Akashbaloni?affiliations=OWNER%2CCOLLABORATOR&style=flat&color=yellow" alt="GitHub Stars" />
-</p>
-
-🧑‍💻 About Me
-🔭 Currently working on ChurnSight – Customer Reviews NLP & Churn Intelligence
-🌱 Exploring LLMs, RAG, Generative AI & MLOps
-🤝 Open to collaborating on Data Science, Machine Learning & AI projects
-💬 Ask me about Python, SQL, Machine Learning, NLP, A/B Testing & Data Analytics
-📫 Reach me at akashbaloni10@gmail.com
-⚡ Fun fact: I love turning ML experiments into deployed web applications! 🚀
-📊 GitHub Overview
-
-<p align="center">
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FAkashbaloni&query=%24.public_repos&label=Public%20Repositories&color=blue&style=for-the-badge" alt="Public repositories" />
-<img src="https://img.shields.io/github/followers/Akashbaloni?label=Followers&color=brightgreen&style=for-the-badge" alt="Followers" />
-<img src="https://img.shields.io/github/stars/Akashbaloni?affiliations=OWNER&label=Total%20Stars&color=yellow&style=for-the-badge" alt="Stars" />
+  <img src="./profile/header.svg" alt="Akash Baloni — I build end-to-end ML projects, from raw data to live web apps" width="100%" />
 </p>
 
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Akashbaloni&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" alt="GitHub statistics" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akashbaloni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+  <a href="https://linkedin.com/in/akash-baloni"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="mailto:akashbaloni10@gmail.com"><img src="https://img.shields.io/badge/Gmail-akashbaloni10-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Akashbaloni?tab=repositories"><img src="https://img.shields.io/badge/All_Projects-Browse-7aa2f7?style=for-the-badge&logo=github&logoColor=white" alt="All projects" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Akashbaloni&label=Profile%20views&color=bb9af7&style=for-the-badge" alt="Profile views" />
 </p>
 
-🔥 Contribution Streak
+---
+
+## 🙋‍♂️ About Me
+
+I'm a data scientist who likes to finish things. Every project I build goes the whole way — cleaning raw data, exploring it, training a model, and shipping it as a **live web app** that anyone can try.
+
+- 🔭 Currently building **[ChurnSight](https://churnsight-s5dv.onrender.com)** — customer-review NLP & churn intelligence
+- 🌱 Currently learning **LLMs, RAG & MLOps**
+- 👯 Open to collaborate on **Data Science & Machine Learning projects**
+- 💬 Ask me about **Python, SQL, Machine Learning, A/B Testing, NLP**
+- 📫 Reach me at **[akashbaloni10@gmail.com](mailto:akashbaloni10@gmail.com)**
+- ⚡ Fun fact: **I deploy every project as a live web app 🚀**
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📉 ChurnSight</h3>
+      <p><b>Customer Reviews NLP &amp; Churn Intelligence</b></p>
+      <p>Turns raw customer reviews into churn signals with NLP, and presents the insights in an interactive web dashboard.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/NLP-bb9af7?style=flat-square" alt="NLP" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+        <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render" />
+      </p>
+      <p>
+        <a href="https://churnsight-s5dv.onrender.com"><b>🌐 Live demo</b></a> ·
+        <a href="https://github.com/Akashbaloni?tab=repositories&q=churnsight"><b>💻 Code</b></a>
+      </p>
+      <sub>Hosted on Render's free tier — the app may take ~30 seconds to wake up.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧪 More projects</h3>
+      <p>Every project is end-to-end: data → analysis → model → deployed app.</p>
+      <p>Explore ML, NLP, SQL and A/B testing work in my repositories.</p>
+      <p>
+        <a href="https://github.com/Akashbaloni?tab=repositories"><b>📂 Browse all repositories →</b></a>
+      </p>
+    </td>
+  </tr>
+  <!--
+  ADD MORE PROJECTS: copy this row, fill it in, and remove the comment markers.
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔹 Project name</h3>
+      <p><b>One-line tagline</b></p>
+      <p>What it does and what problem it solves.</p>
+      <p><a href="LIVE_URL"><b>🌐 Live demo</b></a> · <a href="https://github.com/Akashbaloni/REPO_NAME"><b>💻 Code</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔹 Project name</h3>
+      <p><b>One-line tagline</b></p>
+      <p>What it does and what problem it solves.</p>
+      <p><a href="LIVE_URL"><b>🌐 Live demo</b></a> · <a href="https://github.com/Akashbaloni/REPO_NAME"><b>💻 Code</b></a></p>
+    </td>
+  </tr>
+  -->
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<table>
+  <tr>
+    <td align="center" width="170"><b>ML &amp; Data Science</b></td>
+    <td>
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/python/python-original.svg" alt="Python" title="Python" width="40" height="40" />&nbsp;
+      <img src="./profile/icons/pandas.svg" alt="pandas" title="pandas" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" title="scikit-learn" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" title="Matplotlib" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/seaborn/seaborn-original.svg" alt="Seaborn" title="Seaborn" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter" width="40" height="40" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Databases</b></td>
+    <td>
+      <img src="./profile/icons/mysql.svg" alt="MySQL" title="MySQL" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" width="40" height="40" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Web &amp; Apps</b></td>
+    <td>
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/streamlit/streamlit-original.svg" alt="Streamlit" title="Streamlit" width="40" height="40" />&nbsp;
+      <img src="./profile/icons/django.svg" alt="Django" title="Django" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/react/react-original.svg" alt="React" title="React" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="40" height="40" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>DevOps &amp; Tools</b></td>
+    <td>
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/git/git-original.svg" alt="Git" title="Git" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" title="GitHub Actions" width="40" height="40" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Learning now</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/LLMs-7aa2f7?style=for-the-badge" alt="LLMs" />
+      <img src="https://img.shields.io/badge/RAG-bb9af7?style=for-the-badge" alt="RAG" />
+      <img src="https://img.shields.io/badge/MLOps-9ece6a?style=for-the-badge" alt="MLOps" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=Akashbaloni&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-</p>
-
-📈 Contribution Activity
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akashbaloni&theme=tokyo-night&hide_border=true&area=true" alt="GitHub contribution activity graph" />
-</p>
-
-🚀 Featured Projects
-1. 🔍 ChurnSight – Customer Reviews NLP & Churn Intelligence
-
-An end-to-end NLP and customer intelligence project focused on analyzing customer reviews and extracting meaningful churn-related insights.
-
-🌐 Live Application
-💻 Explore More Projects
-2. 📈 Stock Analyzer
-
-A project focused on stock market data analysis and visualization.
-
-💻 View Repository
-3. 🏦 Credit Risk Assessment using SHAP
-
-A machine learning project focused on credit risk prediction and model interpretability using SHAP.
-
-💻 View Repository
-4. 📊 Demand Forecasting
-
-A data science project focused on forecasting future demand using historical data.
-
-💻 View Repository
-5. 🧪 Criteo A/B Test Uplift
-
-An experimentation and uplift analysis project focused on understanding treatment effects and measuring campaign impact.
-
-💻 View Repository
-6. 🧠 Mental Health Score
-
-A data science project focused on mental health score analysis and prediction.
-
-💻 View Repository
-7. 🏢 Future Corporate Events Tracker
-
-A project focused on tracking and presenting upcoming corporate events.
-
-💻 View Repository
-
-<p align="center">
-<a href="https://github.com/Akashbaloni?tab=repositories">
-<img src="https://img.shields.io/badge/Explore%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
-</a>
-</p>
-
-🛠️ Tech Stack & Tools
-Programming Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,javascript,html,css" alt="Programming languages" />
-</p>
-
-Data Science & Machine Learning
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn" alt="Machine learning technologies" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat" alt="Seaborn" />
-</p>
-
-Databases & Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,sqlite,django,react,docker,git,github" alt="Development tools" />
-</p>
-
-Currently Exploring
-
-<p>
-<img src="https://skillicons.dev/icons?i=ai,aws" alt="Technologies exploring" />
-<img src="https://img.shields.io/badge/LLMs-8A2BE2?style=flat" alt="LLMs" />
-<img src="https://img.shields.io/badge/RAG-FF6F00?style=flat" alt="RAG" />
-<img src="https://img.shields.io/badge/MLOps-007ACC?style=flat" alt="MLOps" />
-</p>
-
-🤝 Let's Connect!
-
-<p align="center">
-<a href="https://linkedin.com/in/akash-baloni" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-</a>
-<a href="mailto:akashbaloni10@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://github.com/Akashbaloni">
-<img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github" alt="GitHub" />
-</a>
+  <img src="./profile/overview.svg" alt="Public repos, total stars, followers and contributions" width="100%" />
 </p>
 
 <p align="center">
-<i>💡 Building, learning, experimenting, and deploying — one project at a time.</i>
+  <img src="./profile/stats.svg" alt="GitHub stats" height="180" />
+  &nbsp;
+  <img src="./profile/top-langs.svg" alt="Most used languages" height="180" />
 </p>
 
 <p align="center">
-⭐ If you find my projects interesting, consider giving them a star!
+  <img src="./profile/streak.svg" alt="Contribution streak" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./profile/activity.svg" alt="Contribution graph for the last 30 days" width="100%" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg" />
+    <img src="./profile/snake.svg" alt="Snake eating my contribution graph" width="100%" />
+  </picture>
+</p>
+
+<p align="center"><sub>Stats refresh automatically every day via GitHub Actions.</sub></p>
+
+---
+
+<p align="center">
+  <b>Thanks for stopping by! If you like my work, feel free to ⭐ a repo or <a href="https://linkedin.com/in/akash-baloni">connect on LinkedIn</a>.</b>
 </p>

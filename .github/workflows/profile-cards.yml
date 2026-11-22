@@ -1,0 +1,76 @@
+name: Update profile cards
+
+# Builds every stats image for the profile README inside this repo,
+# so nothing depends on a public server that can go down or get rate-limited.
+
+on:
+  schedule:
+    - cron: "17 0 * * *" # every day at 05:47 IST
+  workflow_dispatch: # lets you run it manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-cards.yml"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Overview (total repos, stars, followers, contributions), streak, 30-day graph
+      - name: Generate overview, streak and activity cards
+        run: python3 scripts/generate_cards.py --user "${{ github.repository_owner }}" --out profile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # GitHub stats + top languages (github-readme-stats, run inside Actions)
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true # on failure keep yesterday's card
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=460
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        continue-on-error: true
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=10&card_width=380
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Contribution snake (full-year commit calendar)
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        continue-on-error: true
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg?palette=github-light
+            profile/snake-dark.svg?palette=github-dark&color_snake=#7aa2f7
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if git diff --staged --quiet; then
+            echo "Cards unchanged"
+          else
+            git commit -m "chore: update profile cards"
+            git push
+          fi
