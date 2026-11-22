@@ -15,7 +15,7 @@
 
 I'm a data scientist who likes to finish things. Every project I build goes the whole way — cleaning raw data, exploring it, training a model, and shipping it as a **live web app** that anyone can try.
 
-- 🔭 Currently building **[ChurnSight](https://churnsight-s5dv.onrender.com)** — customer-review NLP & churn intelligence
+- 🔭 Currently building **[ChurnSight](https://churnsight-s5dv.onrender.com)** — Customer 360 intelligence that links reviews (NLP) with orders to explain churn
 - 🌱 Currently learning **LLMs, RAG & MLOps**
 - 👯 Open to collaborate on **Data Science & Machine Learning projects**
 - 💬 Ask me about **Python, SQL, Machine Learning, A/B Testing, NLP**
@@ -30,47 +30,101 @@ I'm a data scientist who likes to finish things. Every project I build goes the 
   <tr>
     <td width="50%" valign="top">
       <h3>📉 ChurnSight</h3>
-      <p><b>Customer Reviews NLP &amp; Churn Intelligence</b></p>
-      <p>Turns raw customer reviews into churn signals with NLP, and presents the insights in an interactive web dashboard.</p>
+      <p><b>Customer 360 · NLP · Churn Intelligence</b></p>
+      <p>Links what customers <i>say</i> (34k Portuguese reviews) with what they <i>do</i> (96k orders) on the Olist dataset. A fine-tuned <b>BERTimbau</b> classifier reaches <b>0.835 topic macro-F1</b> (vs 0.636 for keyword rules), hybrid search answers questions in English or Portuguese, and rising-issue alerts caught the late-delivery spikes of Nov 2017 and Feb–Mar 2018.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/NLP-bb9af7?style=flat-square" alt="NLP" />
+        <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Transformers" />
         <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-        <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
       </p>
       <p>
         <a href="https://churnsight-s5dv.onrender.com"><b>🌐 Live demo</b></a> ·
-        <a href="https://github.com/Akashbaloni?tab=repositories&q=churnsight"><b>💻 Code</b></a>
+        <a href="https://github.com/Akashbaloni/churnsight"><b>💻 Code</b></a>
       </p>
-      <sub>Hosted on Render's free tier — the app may take ~30 seconds to wake up.</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>🧪 More projects</h3>
-      <p>Every project is end-to-end: data → analysis → model → deployed app.</p>
-      <p>Explore ML, NLP, SQL and A/B testing work in my repositories.</p>
+      <h3>🎯 Criteo A/B Test & Uplift</h3>
+      <p><b>Did the ads bring anyone new?</b></p>
+      <p>Analysis of a randomized A/B test on <b>13.98M users</b>: SRM, covariate balance and power checks, causal estimates (ITT, CACE) and S/T/X-learner uplift models. Ads lifted visits by <b>+1.07 pp</b> (+27.9%), the most active 20% of users drive 88% of the gain, and the project ends with a per-impression pricing and ROI recommendation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square" alt="LightGBM" />
+        <img src="https://img.shields.io/badge/Causal_Inference-bb9af7?style=flat-square" alt="Causal Inference" />
+        <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow" />
+        <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX" />
+      </p>
+      <p>
+        <a href="https://criteo-uplift-dashboard.onrender.com"><b>🌐 Live demo</b></a> ·
+        <a href="https://github.com/Akashbaloni/criteo-ab-test-uplift"><b>💻 Code</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💳 Credit Risk Assessment</h3>
+      <p><b>Loan default checker with SHAP explanations</b></p>
+      <p>Calibrated <b>XGBoost</b> model on 32k loan applications: <b>ROC-AUC 0.953</b>, Brier score 0.051. The cut-off is chosen to maximise lender profit rather than accuracy, earning <b>+8.4%</b> more than the best-F1 cut-off. SHAP explains every decision, and a Postgres prediction log with a PSI drift check keeps the model monitored.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/XGBoost-EB5E28?style=flat-square" alt="XGBoost" />
+        <img src="https://img.shields.io/badge/SHAP-bb9af7?style=flat-square" alt="SHAP" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </p>
+      <p>
+        <a href="https://credit-risk-assesment-using-shap-08yl.onrender.com"><b>🌐 Live demo</b></a> ·
+        <a href="https://github.com/Akashbaloni/Credit-Risk-Assesment-using-SHAP"><b>💻 Code</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📦 Demand Forecasting</h3>
+      <p><b>Weekly stock planner for 100 products</b></p>
+      <p>Forecasts the next 8 weeks of demand for a UK online retailer as a range (p10/p50/p90), not a single number. <b>LightGBM</b> beats the moving-average baseline (confirmed with bootstrap and Diebold-Mariano tests), and stocking at p90 needed <b>~11% less stock</b> with <b>~35% fewer lost sales</b> than the classic safety-stock rule.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square" alt="LightGBM" />
+        <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+      </p>
+      <p>
+        <a href="https://demand-forecasting-o8yb.onrender.com"><b>🌐 Live demo</b></a> ·
+        <a href="https://github.com/Akashbaloni/Demand-Forecasting"><b>💻 Code</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 Mental Health Signal</h3>
+      <p><b>Student wellbeing score from daily habits</b></p>
+      <p>Predicts a student's mental health score (0–10) from screen time, sleep, study, activity and stress. A <b>Random Forest</b> pipeline (test <b>R² 0.89</b>) sits behind a FastAPI backend, and the score updates live as you move the sliders. Informational only, not a clinical tool.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      </p>
+      <p>
+        <a href="https://mental-health-score-2-wh5b.onrender.com"><b>🌐 Live demo</b></a> ·
+        <a href="https://github.com/Akashbaloni/Mental-Health-score"><b>💻 Code</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧪 More on GitHub</h3>
+      <p><b>Every project is end-to-end</b></p>
+      <p>Raw data → cleaning &amp; EDA → model → honest evaluation → deployed web app, with notebooks and source code you can read.</p>
       <p>
         <a href="https://github.com/Akashbaloni?tab=repositories"><b>📂 Browse all repositories →</b></a>
       </p>
     </td>
   </tr>
-  <!--
-  ADD MORE PROJECTS: copy this row, fill it in, and remove the comment markers.
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔹 Project name</h3>
-      <p><b>One-line tagline</b></p>
-      <p>What it does and what problem it solves.</p>
-      <p><a href="LIVE_URL"><b>🌐 Live demo</b></a> · <a href="https://github.com/Akashbaloni/REPO_NAME"><b>💻 Code</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔹 Project name</h3>
-      <p><b>One-line tagline</b></p>
-      <p>What it does and what problem it solves.</p>
-      <p><a href="LIVE_URL"><b>🌐 Live demo</b></a> · <a href="https://github.com/Akashbaloni/REPO_NAME"><b>💻 Code</b></a></p>
-    </td>
-  </tr>
-  -->
 </table>
+
+<sub>All apps run on Render's free plan, so the first load can take 30–60 seconds while the server wakes up.</sub>
 
 ---
 
@@ -87,20 +141,23 @@ I'm a data scientist who likes to finish things. Every project I build goes the 
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="40" height="40" />&nbsp;
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" title="Matplotlib" width="40" height="40" />&nbsp;
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/seaborn/seaborn-original.svg" alt="Seaborn" title="Seaborn" width="40" height="40" />&nbsp;
-      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter" width="40" height="40" />
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/huggingface/huggingface-original.svg" alt="Hugging Face" title="Hugging Face" width="40" height="40" />
     </td>
   </tr>
   <tr>
     <td align="center"><b>Databases</b></td>
     <td>
       <img src="./profile/icons/mysql.svg" alt="MySQL" title="MySQL" width="40" height="40" />&nbsp;
-      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" width="40" height="40" />
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" width="40" height="40" />
     </td>
   </tr>
   <tr>
     <td align="center"><b>Web &amp; Apps</b></td>
     <td>
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/streamlit/streamlit-original.svg" alt="Streamlit" title="Streamlit" width="40" height="40" />&nbsp;
+      <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/fastapi/fastapi-original.svg" alt="FastAPI" title="FastAPI" width="40" height="40" />&nbsp;
       <img src="./profile/icons/django.svg" alt="Django" title="Django" width="40" height="40" />&nbsp;
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/react/react-original.svg" alt="React" title="React" width="40" height="40" />&nbsp;
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="40" height="40" />&nbsp;
@@ -114,6 +171,16 @@ I'm a data scientist who likes to finish things. Every project I build goes the 
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="40" height="40" />&nbsp;
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/git/git-original.svg" alt="Git" title="Git" width="40" height="40" />&nbsp;
       <img src="https://cdn.jsdelivr.net/npm/devicon@2.18.0/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" title="GitHub Actions" width="40" height="40" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Modelling</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/XGBoost-EB5E28?style=for-the-badge" alt="XGBoost" />
+      <img src="https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge" alt="LightGBM" />
+      <img src="https://img.shields.io/badge/SHAP-bb9af7?style=for-the-badge" alt="SHAP" />
+      <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" />
+      <img src="https://img.shields.io/badge/Causal_Inference-7aa2f7?style=for-the-badge" alt="Causal Inference" />
     </td>
   </tr>
   <tr>
